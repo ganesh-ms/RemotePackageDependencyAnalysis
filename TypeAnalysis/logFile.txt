@@ -1,0 +1,29 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Wed Nov  7 19:29:44 2018
+     Path: "C:\Users\Ganesh\Desktop\SU\CSE681_SMA\Project_3\Project_3\TypeAnalysis"
+     Args: TypeAnalysis.cs, /v, /m, /r, /f, /p
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       6
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           TypeAnalysis.cs   namespace                       TypeAnalysis      46      26       5
+           TypeAnalysis.cs       class                              TpAnl      48      24       4
+           TypeAnalysis.cs    function                        analyseType      51      19       3
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     6 dirs
+   processed     1 files

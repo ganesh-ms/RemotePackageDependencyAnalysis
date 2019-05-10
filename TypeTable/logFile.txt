@@ -1,0 +1,36 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Wed Nov  7 19:29:54 2018
+     Path: "C:\Users\Ganesh\Desktop\SU\CSE681_SMA\Project_3\Project_3\TypeTable"
+     Args: TypeTable.cs, /v, /m, /r, /f, /p
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      19
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              TypeTable.cs   namespace                          TypeTable      14      74      15
+              TypeTable.cs      struct                           TypeItem      20       5       3
+              TypeTable.cs       class                             TTable      26      36       8
+              TypeTable.cs    function                                add      31      10       2
+              TypeTable.cs    function                                add      42       6       1
+              TypeTable.cs    function                               show      49      11       3
+              TypeTable.cs       class                  TestTypeTableDemo      62      26       3
+              TypeTable.cs    function                               Main      64      22       2
+              TypeTable.cs       class                     test_typetable      90      26       3
+              TypeTable.cs    function                               Main      92      22       2
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     7 dirs
+   processed     1 files

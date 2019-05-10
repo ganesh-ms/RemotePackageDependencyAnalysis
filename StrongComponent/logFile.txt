@@ -1,0 +1,57 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Wed Nov  7 19:30:31 2018
+     Path: "C:\Users\Ganesh\Desktop\SU\CSE681_SMA\Project_3\Project_3\StrongComponent"
+     Args: Graph.cs, /v, /m, /r, /f, /p
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      54
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Graph.cs   namespace                    StrongComponent      38     197      45
+                  Graph.cs       class                              Graph      40     195      44
+                  Graph.cs    function                 setGraphDictionary      44       8       2
+                  Graph.cs    function                      setGraphNodes      58       3       1
+                  Graph.cs    function                          setVertex      62       3       1
+                  Graph.cs    function                           setGraph      66       7       3
+                  Graph.cs    function                             Vertex      68       1       1
+                  Graph.cs    function                      setDependency      74       3       1
+                  Graph.cs    function                           addGraph      78       6       2
+                  Graph.cs    function             displayStrongComponent      85      16       3
+                  Graph.cs    function                              Write     117       3       1
+                  Graph.cs       class                            MyStack     121      20       4
+                  Graph.cs    function                               push     124       3       1
+                  Graph.cs    function                                pop     128       7       1
+                  Graph.cs    function                           Contains     136       3       1
+                  Graph.cs       class                             Vertex     141      33       9
+                  Graph.cs    function                             Vertex     148       6       1
+                  Graph.cs    function                           ToString     155       3       1
+                  Graph.cs    function                        GetHashCode     160       3       1
+                  Graph.cs    function                             Equals     164       8       1
+                  Graph.cs       class             TarjanCycleDetectStack     174      60      10
+                  Graph.cs    function                        DetectCycle     180      16       3
+                  Graph.cs    function                    StronglyConnect     198      34       6
+                  Graph.cs    function                             Vertex     240       1       1
+                  Graph.cs    function                             Vertex     241       1       1
+                  Graph.cs    function                             Vertex     242       1       1
+                  Graph.cs    function                             Vertex     243       1       1
+                  Graph.cs    function                             Vertex     244       1       1
+                  Graph.cs    function                             Vertex     245       1       1
+                  Graph.cs    function                             Vertex     246       1       1
+                  Graph.cs    function                             Vertex     247       1       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     7 dirs
+   processed     1 files

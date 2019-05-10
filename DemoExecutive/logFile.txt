@@ -1,0 +1,39 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Wed Nov  7 18:53:24 2018
+     Path: "C:\Users\Ganesh\Desktop\SU\CSE681_SMA\Project_3\Project_3\DemoExecutive"
+     Args: Executive.cs, /v, /m, /r, /f, /p
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      24
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              Executive.cs   namespace                       CodeAnalysis      48     174      23
+              Executive.cs       class                          Executive      52     170      22
+              Executive.cs    function                     requirementOne      55       9       1
+              Executive.cs    function                     requirementTwo      66       7       1
+              Executive.cs    function                   requirementThree      75       8       1
+              Executive.cs    function                    requirementFour      85       8       1
+              Executive.cs    function                     requirementSix      95      11       1
+              Executive.cs    function                   requirementSeven     108      11       1
+              Executive.cs    function                   setAllParameters     121      11       1
+              Executive.cs    function                       setAllParams     133       6       1
+              Executive.cs    function                 ProcessCommandline     140      17       3
+              Executive.cs    function                    ShowCommandLine     159       9       1
+              Executive.cs    function                               Main     170      50       9
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     8 dirs
+   processed     1 files

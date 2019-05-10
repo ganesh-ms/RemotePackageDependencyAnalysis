@@ -1,0 +1,174 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Wed Nov  7 19:43:03 2018
+     Path: "C:\Users\Ganesh\Desktop\SU\CSE681_SMA\Project_3\Project_3\Toker"
+     Args: *.cs, Toker.cs, /v, /m, /r, /f, /p
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     239
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Toker.cs   namespace                              Lexer      57     860     119
+                  Toker.cs   interface                       ITokenSource      68       8       2
+                  Toker.cs   interface                        ITokenState      82       4       1
+                  Toker.cs       class                              Toker      92     149      19
+                  Toker.cs    function                              Toker      99       3       1
+                  Toker.cs    function                               open     108       5       1
+                  Toker.cs    function                              close     116       3       1
+                  Toker.cs    function                          overwrite     128       7       1
+                  Toker.cs    function                             getTok     138      11       2
+                  Toker.cs    function                             isDone     152       5       1
+                  Toker.cs    function                          lineCount     158       2       1
+                  Toker.cs    function                       isWhiteSpace     164       5       1
+                  Toker.cs    function                          isNewLine     172       5       1
+                  Toker.cs    function                         isAlphaNum     180       5       1
+                  Toker.cs    function                       isPunctuator     188       9       1
+                  Toker.cs    function                isSingleLineComment     200       7       1
+                  Toker.cs    function              isMultipleLineComment     210       7       1
+                  Toker.cs    function                      isDoubleQuote     220      11       2
+                  Toker.cs    function                      isSingleQuote     234       5       1
+                  Toker.cs       class                       TokenContext     247      26      12
+                  Toker.cs    function                       TokenContext     249      11       1
+                  Toker.cs       class                         TokenState     278     196      25
+                  Toker.cs    function                         TokenState     284      10       3
+                  Toker.cs    function                    addOneCharToken     297       6       1
+                  Toker.cs    function                 removeOneCharToken     306       3       1
+                  Toker.cs    function                    addTwoCharToken     312       6       1
+                  Toker.cs    function                 removeTwoCharToken     321       3       1
+                  Toker.cs    function                               open     327       3       1
+                  Toker.cs    function                       isWhiteSpace     337       4       1
+                  Toker.cs    function                          isNewLine     344       3       1
+                  Toker.cs    function                         isAlphaNum     350       4       1
+                  Toker.cs    function                isSingleLineComment     357       7       1
+                  Toker.cs    function                 isMultiLineComment     367       7       1
+                  Toker.cs    function                      isDoubleQuote     377       9       2
+                  Toker.cs    function                      isSingleQuote     389       4       1
+                  Toker.cs    function                      isPunctuation     396       6       1
+                  Toker.cs    function                          nextState     405      37       1
+                  Toker.cs    function                             isDone     444       5       1
+                  Toker.cs    function                          isEscaped     457      15       2
+                  Toker.cs       class                    WhiteSpaceState     504      20       4
+                  Toker.cs    function                    WhiteSpaceState     506       3       1
+                  Toker.cs    function                             getTok     512      10       2
+                  Toker.cs       class                       NewLineState     528      16       3
+                  Toker.cs    function                       NewLineState     530       3       1
+                  Toker.cs    function                             getTok     536       6       1
+                  Toker.cs       class                      AlphaNumState     548      20       4
+                  Toker.cs    function                      AlphaNumState     550       3       1
+                  Toker.cs    function                             getTok     556      10       2
+                  Toker.cs       class             SingleLineCommentState     572      25       4
+                  Toker.cs    function             SingleLineCommentState     574       3       1
+                  Toker.cs    function                             getTok     580      15       2
+                  Toker.cs       class              MultiLineCommentState     601      24       4
+                  Toker.cs    function              MultiLineCommentState     603       3       1
+                  Toker.cs    function                             getTok     608      15       2
+                  Toker.cs       class                   SingleQuoteState     628      22       4
+                  Toker.cs    function                   SingleQuoteState     630       3       1
+                  Toker.cs    function                             getTok     635      13       2
+                  Toker.cs       class                   DoubleQuoteState     653      26       4
+                  Toker.cs    function                   DoubleQuoteState     655       3       1
+                  Toker.cs    function                             getTok     661      16       2
+                  Toker.cs       class                   PunctuationState     683      43       5
+                  Toker.cs    function                   PunctuationState     685       3       1
+                  Toker.cs    function                             getTok     694      30       3
+                  Toker.cs       class                    TokenSourceFile     735      88      15
+                  Toker.cs    function                    TokenSourceFile     742       3       1
+                  Toker.cs    function                               open     748      13       3
+                  Toker.cs    function                              close     764       3       1
+                  Toker.cs    function                               next     773      17       3
+                  Toker.cs    function                               peek     799      16       4
+                  Toker.cs    function                                end     818       3       1
+                  Toker.cs       class                          DemoToker     826      91      12
+                  Toker.cs    function              testTokerWithComments     833      29       5
+                  Toker.cs    function           testTokerWithoutComments     863      29       5
+                  Toker.cs    function                               Main     893      22       1
+                  Toker.cs   namespace                              Lexer      57     860     119
+                  Toker.cs   interface                       ITokenSource      68       8       2
+                  Toker.cs   interface                        ITokenState      82       4       1
+                  Toker.cs       class                              Toker      92     149      19
+                  Toker.cs    function                              Toker      99       3       1
+                  Toker.cs    function                               open     108       5       1
+                  Toker.cs    function                              close     116       3       1
+                  Toker.cs    function                          overwrite     128       7       1
+                  Toker.cs    function                             getTok     138      11       2
+                  Toker.cs    function                             isDone     152       5       1
+                  Toker.cs    function                          lineCount     158       2       1
+                  Toker.cs    function                       isWhiteSpace     164       5       1
+                  Toker.cs    function                          isNewLine     172       5       1
+                  Toker.cs    function                         isAlphaNum     180       5       1
+                  Toker.cs    function                       isPunctuator     188       9       1
+                  Toker.cs    function                isSingleLineComment     200       7       1
+                  Toker.cs    function              isMultipleLineComment     210       7       1
+                  Toker.cs    function                      isDoubleQuote     220      11       2
+                  Toker.cs    function                      isSingleQuote     234       5       1
+                  Toker.cs       class                       TokenContext     247      26      12
+                  Toker.cs    function                       TokenContext     249      11       1
+                  Toker.cs       class                         TokenState     278     196      25
+                  Toker.cs    function                         TokenState     284      10       3
+                  Toker.cs    function                    addOneCharToken     297       6       1
+                  Toker.cs    function                 removeOneCharToken     306       3       1
+                  Toker.cs    function                    addTwoCharToken     312       6       1
+                  Toker.cs    function                 removeTwoCharToken     321       3       1
+                  Toker.cs    function                               open     327       3       1
+                  Toker.cs    function                       isWhiteSpace     337       4       1
+                  Toker.cs    function                          isNewLine     344       3       1
+                  Toker.cs    function                         isAlphaNum     350       4       1
+                  Toker.cs    function                isSingleLineComment     357       7       1
+                  Toker.cs    function                 isMultiLineComment     367       7       1
+                  Toker.cs    function                      isDoubleQuote     377       9       2
+                  Toker.cs    function                      isSingleQuote     389       4       1
+                  Toker.cs    function                      isPunctuation     396       6       1
+                  Toker.cs    function                          nextState     405      37       1
+                  Toker.cs    function                             isDone     444       5       1
+                  Toker.cs    function                          isEscaped     457      15       2
+                  Toker.cs       class                    WhiteSpaceState     504      20       4
+                  Toker.cs    function                    WhiteSpaceState     506       3       1
+                  Toker.cs    function                             getTok     512      10       2
+                  Toker.cs       class                       NewLineState     528      16       3
+                  Toker.cs    function                       NewLineState     530       3       1
+                  Toker.cs    function                             getTok     536       6       1
+                  Toker.cs       class                      AlphaNumState     548      20       4
+                  Toker.cs    function                      AlphaNumState     550       3       1
+                  Toker.cs    function                             getTok     556      10       2
+                  Toker.cs       class             SingleLineCommentState     572      25       4
+                  Toker.cs    function             SingleLineCommentState     574       3       1
+                  Toker.cs    function                             getTok     580      15       2
+                  Toker.cs       class              MultiLineCommentState     601      24       4
+                  Toker.cs    function              MultiLineCommentState     603       3       1
+                  Toker.cs    function                             getTok     608      15       2
+                  Toker.cs       class                   SingleQuoteState     628      22       4
+                  Toker.cs    function                   SingleQuoteState     630       3       1
+                  Toker.cs    function                             getTok     635      13       2
+                  Toker.cs       class                   DoubleQuoteState     653      26       4
+                  Toker.cs    function                   DoubleQuoteState     655       3       1
+                  Toker.cs    function                             getTok     661      16       2
+                  Toker.cs       class                   PunctuationState     683      43       5
+                  Toker.cs    function                   PunctuationState     685       3       1
+                  Toker.cs    function                             getTok     694      30       3
+                  Toker.cs       class                    TokenSourceFile     735      88      15
+                  Toker.cs    function                    TokenSourceFile     742       3       1
+                  Toker.cs    function                               open     748      13       3
+                  Toker.cs    function                              close     764       3       1
+                  Toker.cs    function                               next     773      17       3
+                  Toker.cs    function                               peek     799      16       4
+                  Toker.cs    function                                end     818       3       1
+                  Toker.cs       class                          DemoToker     826      91      12
+                  Toker.cs    function              testTokerWithComments     833      29       5
+                  Toker.cs    function           testTokerWithoutComments     863      29       5
+                  Toker.cs    function                               Main     893      22       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     7 dirs
+   processed     6 files

@@ -1,0 +1,31 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Wed Nov  7 19:31:18 2018
+     Path: "C:\Users\Ganesh\Desktop\SU\CSE681_SMA\Project_3\Project_3\DepAnalysis"
+     Args: DAnalysis.cs, /v, /m, /r, /f, /p
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      13
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              DAnalysis.cs   namespace                        DepAnalysis      47      55      12
+              DAnalysis.cs       class                          DAnalysis      49      53      11
+              DAnalysis.cs    function                      setDictionary      53       8       2
+              DAnalysis.cs    function                 dependencyAnalysis      65       3       1
+              DAnalysis.cs    function                              parse      69      31       6
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     7 dirs
+   processed     1 files
